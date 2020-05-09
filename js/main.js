@@ -1,6 +1,32 @@
 
+function botao(){
+    document.getElementById('agradecimento').innerHTML = '<br>Obrigado por clicar!</br>';
+    
+}
 
+function redirecionar(){
+    window.open('https://www.google.com');
 
+    //window.location.href = 'https://www.facebook.com';
+}
+
+function trocar(elemento){
+    elemento.innerHTML = 'Obrigado por passar o mouse';
+}
+
+function voltar(elemento){
+   elemento.innerHTML = 'Passe o mouse aqui...';
+}
+
+function load(){
+    alert('Página carregada');
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
+}
+
+/*
 function validaIdade(idade){
   
   if(idade>=18){
@@ -16,7 +42,6 @@ var idade = prompt("Qual sua idade");
 console.log(validaIdade(idade));
 
 
-/*
 function soma(n1,n2){
     return n1+n2;
 }
